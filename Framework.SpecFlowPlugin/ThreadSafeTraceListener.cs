@@ -3,7 +3,7 @@ using TechTalk.SpecFlow.Tracing;
 
 namespace Framework.SpecFlowPlugin
 {
-    internal class ThreadSafeTraceListener : IThreadSafeTraceListener, ITraceListener
+    public class ThreadSafeTraceListener : IThreadSafeTraceListener, ITraceListener
     {
         public void WriteTestOutput(string message)
         {

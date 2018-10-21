@@ -1,7 +1,9 @@
-﻿using Framework.Common;
+﻿using Framework.CodeGenerator;
+using Framework.Common;
 using Framework.HTTP;
 using Framework.SpecFlowPlugin;
 using TechTalk.SpecFlow.Generator.Plugins;
+using TechTalk.SpecFlow.Generator.UnitTestConverter;
 using TechTalk.SpecFlow.Infrastructure;
 using TechTalk.SpecFlow.Plugins;
 using TechTalk.SpecFlow.Tracing;
@@ -21,7 +23,7 @@ namespace Framework.SpecFlowPlugin
 
         private void GeneratorPluginEvents_CustomizeDependencies(object sender, CustomizeDependenciesEventArgs e)
         {
-            e.ObjectContainer.RegisterTypeAs<Response, IResponse>();
+            e.ObjectContainer.RegisterTypeAs<CustomUnitTestFeatureGenerator, IFeatureGenerator>();
             e.ObjectContainer.RegisterTypeAs<Request, IRequest>();
             e.ObjectContainer.RegisterTypeAs<BaseContext, IBaseContext>();
         }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Specs", "Framewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Common", "Framework.Common\Framework.Common.csproj", "{3459E7A7-201A-45A3-B80E-EBAD7C362909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CodeGenerator", "Framework.CodeGenerator\Framework.CodeGenerator.csproj", "{5A72F594-F38F-49CD-AB25-6D8D170BD959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3459E7A7-201A-45A3-B80E-EBAD7C362909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3459E7A7-201A-45A3-B80E-EBAD7C362909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3459E7A7-201A-45A3-B80E-EBAD7C362909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A72F594-F38F-49CD-AB25-6D8D170BD959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A72F594-F38F-49CD-AB25-6D8D170BD959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A72F594-F38F-49CD-AB25-6D8D170BD959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A72F594-F38F-49CD-AB25-6D8D170BD959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
