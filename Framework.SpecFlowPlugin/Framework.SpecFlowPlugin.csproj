@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="FrameworkPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreadSafeTraceListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
