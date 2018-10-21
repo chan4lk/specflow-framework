@@ -19,6 +19,7 @@ namespace Framework.Specs
             _context.FirstNumber = first;
         }
 
+        
         [Given(@"I have also entered (.*) into the calculator")]
         public void GivenIHaveAlsoEnteredIntoTheCalculator(int last)
         {
@@ -37,5 +38,14 @@ namespace Framework.Specs
         {
             Assert.Equal(p0, _context.FirstNumber + _context.LastNumber);
         }
+
+        [Given(@"I have added two numbers")]
+        public void GivenIHaveAddedTwoNumbers()
+        {
+            Given(@"I have entered 50 into the calculator");
+            And(@"I have also entered 70 into the calculator");
+            When(@"I press add");
+        }
+
     }
 }

@@ -10,7 +10,7 @@ using TechTalk.SpecFlow.Plugins;
 
 namespace Framework.SpecFlowPlugin
 {
-
+    
     public class FrameworkPlugin : IRuntimePlugin, IGeneratorPlugin
     {
         public void Initialize(GeneratorPluginEvents generatorPluginEvents, GeneratorPluginParameters generatorPluginParameters)
